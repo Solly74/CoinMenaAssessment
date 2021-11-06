@@ -18,7 +18,7 @@ const CMScrollView: React.FC<IProps> = ({
   linearGradient = false,
 }) => {
   return (
-    <CMView contentView includeLinearGradient={linearGradient}>
+    <CMView includeLinearGradient={linearGradient}>
       <ScrollView
         style={style}
         refreshControl={

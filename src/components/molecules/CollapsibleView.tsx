@@ -8,7 +8,6 @@ import {
 } from "react-native";
 import { CMText } from "../atoms";
 import { PLATFORM, TextSizes, THEME } from "../../constants";
-import { FUNCTIONS } from "../../util";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 interface IProps {
